@@ -32,7 +32,7 @@ export const Layout = ({ children }: LayoutProps) => {
           <div className="bg-brand-500 p-2 rounded-lg">
             <Plane className="w-6 h-6 text-white" />
           </div>
-          <span className="text-xl font-bold tracking-tight">VoyageOS</span>
+          <span className="text-xl font-bold tracking-tight">MyTrypsIA</span>
         </div>
 
         <nav className="flex-1 px-4 py-4 space-y-2">
@@ -79,7 +79,7 @@ export const Layout = ({ children }: LayoutProps) => {
       <div className="flex-1 flex flex-col overflow-hidden">
         {/* Mobile Header (visible only on small screens) */}
         <div className="md:hidden bg-slate-900 text-white p-4 flex justify-between items-center">
-          <span className="font-bold">VoyageOS</span>
+          <span className="font-bold">MyTrypsIA</span>
           <button onClick={() => signOut()}>
             <LogOut className="w-5 h-5" />
           </button>
