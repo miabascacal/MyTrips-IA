@@ -43,7 +43,7 @@ export const Login = () => {
           </div>
         </div>
         <h2 className="mt-6 text-center text-3xl font-extrabold text-slate-900">
-          {isSignUp ? 'Create your account' : 'Sign in to MyTrypsIA'}
+          {isSignUp ? 'Create your account' : 'Sign in to VoyageOS'}
         </h2>
         <p className="mt-2 text-center text-sm text-slate-600">
           The AI-Powered Operating System for Modern Travel
